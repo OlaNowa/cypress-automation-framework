@@ -9,6 +9,7 @@
   "author": "Aleksandra Nowak",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.1.0"
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^13.3.0"
   }
 }
