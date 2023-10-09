@@ -16,7 +16,7 @@ describe("Selector examples", () => {
         cy.get(".feedback-input")
 
         //By multiple classes
-        cy.get("[class='navbar-inverse navbar-fixed-top']")
+        cy.get("[class='navbar navbar-inverse navbar-fixed-top']")
 
         //By two different attributes
         cy.get("[name='email'][placeholder='Email Address']")

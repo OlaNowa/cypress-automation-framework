@@ -2,10 +2,11 @@
 
 describe("Test Contact Us form via WebdriverUni", () => {
     //positive path
-    it.only("Should be able to submit a successful submission via contact us form", () => {
+    it("Should be able to submit a successful submission via contact us form", () => {
         cy.visit("https://webdriveruniversity.com/Contact-Us/contactus.html")
         cy.document().should('have.property', 'charset').and('eq', 'UTF-8')
         cy.title().should('include', 'WebDriver | Contact Us')
+        cy.url().should('include', 'contactus')
         // cy.get('#contact-us').click()
         cy.get('[name="first_name"]').type("Aleksandra")
         cy.get('[name="last_name"]').type("Smith")
