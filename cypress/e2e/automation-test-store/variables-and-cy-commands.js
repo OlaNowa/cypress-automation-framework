@@ -45,7 +45,5 @@ describe("Verifying variables, cypress commands and jquery commands", () => {
                 cy.log(fnText)
             })
         })
-
-        //Embedded command (Closure)
     });
 })
